@@ -1,0 +1,13 @@
+[zabbix_proxy_servers]
+192.168.251.252
+192.168.251.125
+192.168.251.120
+192.168.251.253
+
+[zabbix-agent]
+#192.168.110.16 hostname=Kuber2.agent agent=zabbix-agent
+#192.168.110.206 hostname=Gucamole.agent agent=zabbix-agent2
+192.168.110.38 hostname=SRV-Docker-1.agent agent=zabbix-agent2
+192.168.110.29 hostname=Registry.agent agent=zabbix-agent2
+192.168.110.21 hostname=Kuber-Desktop agent=zabbix-agent2
+192.168.110.165 hostname=Reportsrv.Agent agent=zabbix-agent2
